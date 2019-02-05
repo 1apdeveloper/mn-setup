@@ -99,7 +99,7 @@ masternode outputs
  <tr><td>{</td></tr>
 <tr><td>    "txhash": "c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8ec6585d1922", </td></tr>
 <tr><td>     "outputidx": 1 {</td></tr>
-<tr><td>   } {</td></tr>
+<tr><td>   }</td></tr>
 </table>
 
 
