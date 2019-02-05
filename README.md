@@ -42,18 +42,31 @@ mkdir $HOME/.apholding
 nano $HOME/.apholding/apholding.conf
 
 #----
+
 rpcuser=rpc_apholding
+
 rpcpassword=your_own_password_choose_a_good_one
+
 rpcallowip=127.0.0.1
+
 #----
+
 listen=1
+
 server=1
+
 daemon=1
+
 maxconnections=64
+
 #----
+
 masternode=1
+
 masternodeprivkey=REPLACE_WITH_MASTERNODE_PRIVATE_KEY
+
 externalip=REPLACE_WITH_EXTERNAL_IP_OF_VPS
+
 #----
 
 ### Start Server
