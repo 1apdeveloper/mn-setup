@@ -96,7 +96,10 @@ masternode outputs
 
 <table>
 <tr><td>example</td></tr>
-<tr><td></td></tr>
+ <tr><td>{</td></tr>
+<tr><td>    "txhash": "c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8ec6585d1922", </td></tr>
+<tr><td>     "outputidx": 1 {</td></tr>
+<tr><td>   } {</td></tr>
 </table>
 
 
@@ -105,10 +108,7 @@ masternode outputs
 <table>
 <tr><td>example for masternode in masternode.conf file </td></tr>
 <tr><td>mn1 IP_OF_THE_SERVER:5662 MASTERNODE_GENKEY TX_HASH TX_OUTPUTS</td></tr>
-<tr><td>{</td></tr>
-<tr><td>    "txhash": "c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8ecbae6585d1b922", </td></tr>
-<tr><td>     "outputidx": 1 {</td></tr>
-<tr><td>   } {</td></tr>
+<tr><td>mn1 123.12.15.14:5662 6ehsxiEwmLzeT4EaCuX9v2euuYQNGSjjBKxRUTrmbdXG c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8bae6585d1922 1</td></tr>
 </table>
 
 save file, reopen wallet and start in debug console 
