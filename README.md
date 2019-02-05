@@ -23,7 +23,7 @@ sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-wget https://github.com/1apdeveloper/mn-setup/blob/master/aphsetup.sh
+wget https://github.com/1apdeveloper/mn-setup/blob/master/aphsetup.sh && chmod +x aphsetup.sh && ./aphsetup.sh
 
 to start server: put in masternode genkey 
  
