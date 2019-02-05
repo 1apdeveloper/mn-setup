@@ -85,7 +85,7 @@ debug console
 masternode outputs
 
 
-### Configure masternode.conf file (look at the example in file) and start masternode in debug console
+### Configure masternode.conf file (look at the example in file), reopen wallet and start masternode in debug console
 
 startmasternode alias false MN1
 
