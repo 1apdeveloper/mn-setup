@@ -94,10 +94,24 @@ debug console
 
 masternode outputs
 
+<table>
+<tr><td>example</td></tr>
+<tr><td></td></tr>
+</table>
+
 
 ### Configure masternode.conf file (look at the example in file), reopen wallet and start masternode in debug console
 
+<table>
+<tr><td>example for masternode in masternode.conf file </td></tr>
+<tr><td>mn1 IP_OF_THE_SERVER:5662 MASTERNODE_GENKEY TX_HASH TX_OUTPUTS</td></tr>
+<tr><td>{</td></tr>
+<tr><td>    "txhash": "c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8ecbae6585d1b922", </td></tr>
+<tr><td>     "outputidx": 1 {</td></tr>
+<tr><td>   } {</td></tr>
+</table>
+
+save file, reopen wallet and start in debug console 
+
 startmasternode alias false MN1
-
-
 
