@@ -80,4 +80,6 @@ debug console
 masternode outputs
 
 
+Configure masternode.con file and start masternode
+
 startmasternode alias false MN1
