@@ -47,7 +47,7 @@ nano $HOME/.apholding/apholding.conf
 
 rpcuser=rpc_apholding
 
-rpcpassword=kuw05sqio7bcm8z96o7redv17xws1lw6xpd1qf33
+rpcpassword=replace_with_a_good_password_on_your_choice
 
 rpcallowip=127.0.0.1
 
