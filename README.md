@@ -34,7 +34,7 @@ debug console
 masternode outputs
 
 
-Configure masternode.con file and start masternode
+### Configure masternode.conf file and start masternode in debug console
 
 startmasternode alias false MN1
 
