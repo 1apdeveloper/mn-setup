@@ -85,11 +85,9 @@ debug console
 masternode outputs
 
 
-### Configure masternode.conf file and start masternode in debug console
+### Configure masternode.conf file (look at the example in file) and start masternode in debug console
 
 startmasternode alias false MN1
 
 
 
-
-### (THANKS for programming the script: Dr. Wildgruber ) 
