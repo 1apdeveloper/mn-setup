@@ -4,7 +4,9 @@ in wallet: Open Debug console:
 
 masternode genkey
 
-getaccountaddress "MN1"
+getaccountaddress "MN1" 
+
+send exact 50000 Coins to the address (confirmation need: 15) 
 
 
 ### on VPS (f.e.: digital ocean, vultr...) Ubuntu 1604 !! on vultr(minimum 3.50$ per month)
