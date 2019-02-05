@@ -4,7 +4,17 @@ in wallet: Open Debug console:
 
 masternode genkey
 
+<table>
+<tr><td>example</td></tr>
+<tr><td>6ehsxiEwmLzeT4EaCuX9v2euuYQNGSjjBKxRUTrmbdXG</td></tr>
+</table>
+
 getaccountaddress "MN1" 
+
+<table>
+<tr><td>example</td></tr>
+<tr><td>HRbcQmmJUUPJ9RKZfa1ariykE1z774156P</td></tr>
+</table>
 
 send exact 50000 Coins to the address (confirmation need: 15) 
 
