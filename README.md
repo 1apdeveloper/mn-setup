@@ -37,3 +37,8 @@ masternode outputs
 Configure masternode.con file and start masternode
 
 startmasternode alias false MN1
+
+
+
+
+### (THANKS for programming the script: Dr. Wildgruber ) 
