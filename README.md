@@ -25,53 +25,7 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-cli
 
-wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-tx
-
-wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-d
-
-chmod +x apholding-d
-
-chmod +x apholding-tx
-
-chmod +x apholding-cli
-
-sudo mv apholdingd apholding-cli apholding-tx /usr/bin/
-
-mkdir $HOME/.apholding
-
-nano $HOME/.apholding/apholding.conf
-
-#----
-
-rpcuser=rpc_apholding
-
-rpcpassword=your_own_password_choose_a_good_one
-
-rpcallowip=127.0.0.1
-
-#----
-
-listen=1
-
-server=1
-
-daemon=1
-
-maxconnections=64
-
-#----
-
-masternode=1
-
-masternodeprivkey=REPLACE_WITH_MASTERNODE_PRIVATE_KEY
-
-externalip=REPLACE_WITH_EXTERNAL_IP_OF_VPS
-
-#----
-
-### Start Server
-apholdingd
- 
+to start server: put in masternode genkey 
  
 ### in wallet
  
