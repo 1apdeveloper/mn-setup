@@ -7,7 +7,7 @@ masternode genkey
 getaccountaddress "MN1"
 
 
-### on Vps (f.e.: digital ocean, vultr...) Ubuntu 1604 !!
+### on VPS (f.e.: digital ocean, vultr...) Ubuntu 1604 !!
 
 sudo apt-get update
 
