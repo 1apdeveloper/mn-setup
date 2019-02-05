@@ -7,7 +7,7 @@ masternode genkey
 getaccountaddress "MN1"
 
 
-### on VPS (f.e.: digital ocean, vultr...) Ubuntu 1604 !!
+### on VPS (f.e.: digital ocean, vultr...) Ubuntu 1604 !! on vultr(minimum 3.50$ per month)
 
 sudo apt-get update
 
