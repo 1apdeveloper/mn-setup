@@ -7,7 +7,7 @@ masternode genkey
 getaccountaddress "MN1"
 
 
-### on Vps (f.e.: digital ocean, vultr...)
+### on Vps (f.e.: digital ocean, vultr...) Ubuntu 1604 !!
 
 sudo apt-get update
 
@@ -23,13 +23,13 @@ sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholding-cli
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-cli
 
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholding-tx
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-tx
 
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholdingd
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-d
 
-chmod +x apholdingd
+chmod +x apholding-d
 
 chmod +x apholding-tx
 
@@ -60,7 +60,9 @@ externalip=REPLACE_WITH_EXTERNAL_IP_OF_VPS
 apholdingd
  
  
-debug wallet
+### in wallet
+ 
+debug console
 
 masternode outputs
 
