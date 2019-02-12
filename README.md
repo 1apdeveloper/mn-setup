@@ -35,13 +35,11 @@ sudo apt-get update
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-sudo apt-get install libdb4.8-dev libdb4.8++-dev
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-cli
 
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholding-cli
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholding-tx
 
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholding-tx
-
-wget https://github.com/1apdeveloper/mn-pos-Coin-APHolding/blob/master/apholdingd
+wget https://github.com/1apdeveloper/mn-setup/blob/master/apholdingd
 
 chmod +x apholdingd
 
