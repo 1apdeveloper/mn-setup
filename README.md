@@ -36,7 +36,7 @@ send exact 50000 Coins to the address (confirmation need: 15)
 
 # Installation: for Security use SSH on your vps!!
 
-# setup start with security on vps in putty (firewall)
+setup start with security on vps in putty (firewall)
 
 ```bash
 sudo ufw allow 22
@@ -54,7 +54,7 @@ sudo ufw enable
 sudo ufw default deny
 ```
 
-# start install the requirements on VPS:
+start install the requirements on VPS:
 
 ```bash
 sudo apt-get update
@@ -75,25 +75,25 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 ```
 
-# start install another user:
+start install another user:
 
 ```bash
 sudo adduser yourusername
 ```
 
-# Setup a safe password for your username and fillout the requested details or click enter for default
+Setup a safe password for your username and fillout the requested details or click enter for default
 
 ```bash
 ./sudo usermod -aG sudo yourusername
 ```
 
-# change to user 
+change to user 
 
 ```bash
 su - yourusername
 ```
 
-# download the sourcecode for the daemon 
+download the sourcecode for the daemon 
 
 ```bash
 sudo wget https://github.com/1apdeveloper/mn-setup/raw/master/apholding-cli
@@ -146,7 +146,7 @@ externalip=IP-address
 #----
 ```
 
-### start the vps server with
+# start the vps server with
 
 ```bash
 apholdingd
@@ -171,7 +171,7 @@ masternode outputs
 </table>
 
 
-### Configure masternode.conf file (look at the example in file), reopen wallet and start masternode in debug console
+# Configure masternode.conf file (look at the example in file), reopen wallet and start masternode in debug console
 
 <table>
 <tr><td>example for masternode in masternode.conf file </td></tr>
@@ -179,7 +179,7 @@ masternode outputs
 <tr><td>mn1 123.12.15.14:5662 6ehsxiEwmLzeT4EaCuX9v2euuYQNGSjjBKxRUTrmbdXG c8ab8aa43d50cae6bf2b89b09f124bd83beaec00537884be8bae6585d1922 1</td></tr>
 </table>
 
-save file, reopen wallet and start in debug console 
+save file, reopen wallet and start in debug console !
 
 ```bash
 startmasternode alias false MN1
