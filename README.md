@@ -84,7 +84,7 @@ sudo adduser yourusername
 Setup a safe password for your username and fillout the requested details or click enter for default
 
 ```bash
-./sudo usermod -aG sudo yourusername
+sudo usermod -aG sudo yourusername
 ```
 
 change to user 
