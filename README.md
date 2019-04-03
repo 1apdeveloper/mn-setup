@@ -71,6 +71,8 @@ sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compi
 ```bash
 sudo add-apt-repository ppa:bitcoin/bitcoin
 ```
+You will be prompted with "Enter". press enter
+
 ```bash
 sudo apt-get update
 ```
@@ -145,6 +147,9 @@ masternodeprivkey=your-MASTERNODE-GENKEY-from-debugconsole
 externalip=IP-address
 #----
 ```
+save this file by pressing CONTROL+O
+press enter
+close this file by pressing CONTROL+X
 
 # start the vps server with
 
