@@ -10,7 +10,7 @@ vultr:  <a href="https://www.vultr.com/?ref=7811287"><img src="https://www.vultr
 Feel free to use our reflinks to signup: 
 DigitalOcean ( to get the Bonus of 100$ ) you can use this link: https://m.do.co/c/620c3ac29a40
  
-## change into the wallet 
+## start in the wallet 
 in wallet: Open Debug console: 
 
 ```bash
@@ -23,7 +23,7 @@ masternode genkey
 </table>
 
 ```bash
-getaccountaddress "MN1"
+getaccountaddress "MN1"  
 ```
 
 <table>
@@ -50,6 +50,8 @@ sudo ufw allow 5662
 ```bash
 sudo ufw enable
 ```
+You will be prompted with "Yes or no". type y and press enter
+
 ```bash
 sudo ufw default deny
 ```
@@ -77,13 +79,17 @@ You will be prompted with "Enter". press enter
 sudo apt-get update
 ```
 
-start install another user:
+add another user for security reason!:
 
 ```bash
 sudo adduser yourusername
 ```
+You will be prompted with Set a password. type a good password and press enter
+again You will be prompted with rename the password. type your password and press enter
 
-Setup a safe password for your username and fillout the requested details or click enter for default
+you will be prompted for some account details: press 5 times enter 
+You will be prompted with "Yes or no". type y and press enter
+
 
 ```bash
 sudo usermod -aG sudo yourusername
@@ -95,12 +101,12 @@ change to user
 su - yourusername
 ```
 
-download the sourcecode for the daemon 
+download the wallet-client, tx and daemon file
 
 ```bash
 sudo wget https://github.com/1apdeveloper/mn-setup/raw/master/apholding-cli
 ```
-fillout the password of your username
+fillout the password of your username and press enter
 
 
 ```bash
@@ -131,6 +137,7 @@ mkdir $HOME/.apholding
 nano $HOME/.apholding/apholding.conf
 ```
 
+copy this with your details in th conf. file (choose only another good password, you need your masternode genkey from wallet and the ip address of the vps server)
 ```bash
 #----
 rpcuser=rpc_apholding
@@ -147,8 +154,7 @@ masternodeprivkey=your-MASTERNODE-GENKEY-from-debugconsole
 externalip=IP-address
 #----
 ```
-save this file by pressing CONTROL+O
-press enter
+save this file by pressing CONTROL+O and press enter
 close this file by pressing CONTROL+X
 
 # start the vps server with
@@ -156,6 +162,8 @@ close this file by pressing CONTROL+X
 ```bash
 apholdingd
 ```
+if everything is fine: you get an output: apholding server starting
+
 
 
 
@@ -166,7 +174,6 @@ go to debug console
 ```bash
 masternode outputs
 ```
-
 <table>
 <tr><td>example</td></tr>
  <tr><td>{</td></tr>
