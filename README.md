@@ -152,6 +152,17 @@ maxconnections=64
 masternode=1
 masternodeprivkey=your-MASTERNODE-GENKEY-from-debugconsole
 externalip=IP-address
+addnode=142.93.31.38
+addnode=157.230.147.169
+addnode=134.209.59.36
+addnode=178.128.254.159
+addnode=167.99.101.104
+addnode=178.128.186.27
+addnode=178.128.0.163
+addnode=104.248.75.170
+addnode=142.93.86.73
+addnode=142.93.83.153
+addnode=167.99.47.146
 #----
 ```
 save this file by pressing CONTROL+O and press enter
