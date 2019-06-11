@@ -1,14 +1,14 @@
 # Masternode Setup - Step by step guide
 
 Requirements: 	
-1.) VPS for example on vultr or AWS on Amazon Services or Digital Ocean (on digitalocean you can get bonus 100$ for 60 days)
+1.) VPS for example on vultr or AWS on Amazon Services or Digital Ocean (on digitalocean you can get bonus 50$ for 30 days)
 2.) for 1 Masternode you need a wallet with 50001 APH Coins
 
 Feel free to use our reflinks to signup: 
 vultr:  <a href="https://www.vultr.com/?ref=7811287"><img src="https://www.vultr.com/media/banner_2.png" width="468" height="60"></a>
 
 Feel free to use our reflinks to signup: 
-DigitalOcean ( to get the Bonus of 100$ ) you can use this link: https://m.do.co/c/620c3ac29a40
+DigitalOcean ( to get the Bonus of 50$ ) you can use this link: https://m.do.co/c/620c3ac29a40
  
 ## start in the wallet 
 in wallet: Open Debug console: 
