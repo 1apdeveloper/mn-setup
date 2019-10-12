@@ -104,16 +104,16 @@ su - yourusername
 download the wallet-client, tx and daemon file
 
 ```bash
-sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/apholding-cli
+sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/Linux/apholding-cli
 ```
 fillout the password of your username and press enter
 
 
 ```bash
-sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/apholding-tx
+sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/Linux/apholding-tx
 ```
 ```bash
-sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/apholdingd
+sudo wget https://github.com/1apdeveloper/Coin-Wallets/raw/master/Linux/apholdingd
 ```
 ```bash
 sudo chmod +x apholdingd
